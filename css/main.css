@@ -980,7 +980,7 @@ h6,
 .h5,
 .h6 {
     word-break: break-word;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Spartan-SemiBold', sans-serif;
     color: var(--edublink-color-heading);
 }
 
