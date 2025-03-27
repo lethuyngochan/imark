@@ -204,7 +204,7 @@
 }
 
 .edublink-font-secondary {
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .edublink-font-size-b1 {
@@ -401,7 +401,7 @@ body #checkout-payment #checkout-order-action button,
     font-size: 15px;
     font-weight: 500;
     transition: 0.4s;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     border: 0 none;
     margin: 0 0 30px !important;
 }
@@ -856,7 +856,7 @@ blockquote p code,
 blockquote cite {
     display: flex;
     margin-top: 8px;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-weight: var(--edublink-p-medium);
     font-size: var(--edublink-h5);
     line-height: var(--edublink-h5-lineHeight);
@@ -910,7 +910,7 @@ body {
 }
 
 body {
-    font-size: var(--edublink-font-size-b1);
+    font-size: 1.5em;
     line-height: var(--edublink-line-height-b1);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -953,11 +953,13 @@ hr {
 }
 
 @font-face {
-    font-family: 'Spartan';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Spartan-Regular';
+    src: url(../fonts/LeagueSpartan-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Spartan-SemiBold';
     src: url(../fonts/Spartan-SemiBold.ttf);
-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 @font-face {
@@ -978,7 +980,7 @@ h6,
 .h5,
 .h6 {
     word-break: break-word;
-    font-family: 'Spartan';
+    font-family: 'Spartan', sans-serif;
     color: var(--edublink-color-heading);
 }
 
@@ -2051,7 +2053,7 @@ h2.entry-title a,
     position: relative;
     z-index: 1;
     color: var(--edublink-color-heading);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-weight: var(--edublink-p-semi-bold);
     font-size: 18px;
     line-height: 26px;
@@ -2133,7 +2135,7 @@ h2.entry-title a,
 .edublink-woocommerce-shop-top p.woocommerce-result-count {
     margin: 0;
     color: var(--edublink-color-heading);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-weight: var(--edublink-p-semi-bold);
 }
 
@@ -2359,7 +2361,7 @@ body.admin-bar .fancybox-toolbar {
 .widget_recent_entries ul li,
 .widget_nav_menu ul li,
 .widget_recent_entries ul li {
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-heading);
     font-weight: var(--edublink-p-medium);
     margin-top: 0;
@@ -2483,7 +2485,7 @@ body.admin-bar .fancybox-toolbar {
 
 .widget #wp-calendar.table>thead>tr>th {
     font-weight: 600;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .widget_product_search .woocommerce-product-search,
@@ -3148,7 +3150,7 @@ table#wp-calendar {
     font-weight: var(--edublink-p-semi-bold);
     font-size: var(--edublink-h6);
     line-height: var(--edublink-h6-lineHeight);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-heading);
 }
 
@@ -3158,7 +3160,7 @@ table#wp-calendar {
     font-weight: var(--edublink-p-semi-bold);
     font-size: var(--edublink-h6);
     line-height: var(--edublink-h6-lineHeight);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-heading);
     margin-top: 8px;
 }
@@ -3183,7 +3185,7 @@ table#wp-calendar {
     border-radius: 5px;
     font-weight: 500;
     font-size: 14px;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     margin: 5px;
     height: 40px;
     line-height: 40px;
@@ -3601,9 +3603,9 @@ header .edublink-row>* {
 
 .edublink-el-single-depth-menu li a,
 .edublink-header-area ul.edublink-navbar-nav li a {
-    font-size: 15px;
+    font-size: 1.3em;
     font-weight: 600;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .edublink-header-area.edublink-navbar-expand-lg ul.edublink-navbar-nav>li>a.nav-link,
@@ -4001,7 +4003,7 @@ body.admin-bar.edublink-header-transparent-enable .edublink-header-container {
     display: inline-block;
     padding: 0.63em 0.65em 0.35em 0.65em;
     font-size: 9px;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-weight: var(--edublink-p-bold);
     line-height: 1;
     color: var(--edublink-color-white);
@@ -4017,7 +4019,7 @@ body.admin-bar.edublink-header-transparent-enable .edublink-header-container {
     display: inline-block;
     padding: 0.63em 0.65em 0.35em 0.65em;
     font-size: 9px;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-weight: var(--edublink-p-bold);
     line-height: 1;
     color: var(--edublink-color-white);
@@ -4362,8 +4364,8 @@ body:not(.edublink-header-transparent-enable) .site-header.theme-header-3:not(.e
 .eb-header-top-bar {
     background-color: #1f2432;
     color: var(--edublink-color-white);
-    font-family: var(--edublink-font-secondary);
-    font-size: 14px;
+    font-family: 'Spartan-Regular';
+    font-size: 1.2em;
     line-height: 50px;
     font-weight: 500;
 }
@@ -4504,7 +4506,7 @@ body:not(.edublink-header-transparent-enable) .site-header.theme-header-3:not(.e
 
 .eb-header-top-bar a.edu-btn {
     border-radius: 0;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 500;
     color: var(--edublink-color-white);
 }
@@ -4965,7 +4967,7 @@ header:not(.edublink-header-sticky) .edu-header-search-field.bg-white .inner {
     padding: 0;
     padding-right: 55px;
     font-weight: 400;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-size: 24px;
     width: 100%;
 }
@@ -5241,7 +5243,7 @@ header:not(.edublink-header-sticky) .edu-header-search-field.bg-white .inner {
     padding: 0;
     color: var(--edublink-color-white);
     text-align: center;
-    font-family: var(--edublink-font-secondary) !important;
+    font-family: 'Spartan-Regular' !important;
     font-weight: 500;
     font-size: 15px;
     width: 100%;
@@ -5284,7 +5286,7 @@ header:not(.edublink-header-sticky) .edu-header-search-field.bg-white .inner {
     display: inline-flex;
     border-radius: 3px;
     font-size: 15px;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-weight: 600;
     color: var(--edublink-color-heading);
 }
@@ -5322,7 +5324,7 @@ header:not(.edublink-header-sticky) .edu-header-search-field.bg-white .inner {
     font-size: 28px;
     line-height: 40px;
     color: var(--edublink-color-heading);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     margin-bottom: 0;
 }
 
@@ -5392,7 +5394,7 @@ button.edu-btn {
     font-weight: 500;
     -webkit-transition: 0.4s;
     transition: 0.4s;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     border: 0 none;
     overflow: hidden;
     position: relative;
@@ -5742,11 +5744,11 @@ button.edu-btn i {
     color: var(--edublink-color-white);
     background: var(--edublink-color-primary);
     padding: 0 30px;
-    font-size: 15px;
+    font-size: 1.2em;
     font-weight: 500;
     -webkit-transition: 0.4s;
     transition: 0.4s;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     border: 0 none;
     overflow: hidden;
     position: relative;
@@ -5993,7 +5995,7 @@ button.edu-btn i {
     top: calc(50% - 21px);
     font-size: 12px;
     font-weight: 500;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .edublink-woo-mini-cart-total-price {
@@ -6064,7 +6066,7 @@ button.edu-btn i {
     font-size: var(--edublink-font-size-b3);
     line-height: var(--edublink-line-height-b3);
     color: var(--edublink-color-black);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     padding-right: 8px;
 }
 
@@ -6490,7 +6492,7 @@ p.edublink-cart-shop-page-link {
 .edublink-page-title-area.edublink-default-breadcrumb .edublink-breadcrumb-wrapper ul li {
     color: var(--edublink-color-heading);
     font-size: 16px;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .edublink-breadcrumb-style-1 .edublink-breadcrumb-wrapper ul li,
@@ -6618,7 +6620,7 @@ p.edublink-cart-shop-page-link {
 .edublink-breadcrumb-style-1 .edublink-breadcrumb-wrapper ul li a {
     color: var(--edublink-color-white);
     font-size: 16px;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .edublink-breadcrumb-style-1 .edublink-breadcrumb-wrapper ul li:after {
@@ -6884,7 +6886,7 @@ nav.edublink-theme-page-links ul.pager {
     line-height: 62px;
     font-weight: 500;
     background: var(--edublink-color-primary);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     border: 0;
 }
 
@@ -7032,7 +7034,7 @@ ol.edublink-comment-list li {
 }
 
 .edublink-comment-item h4.edublink-media-heading a {
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .edublink-comment-header {
@@ -7058,7 +7060,7 @@ ol.edublink-comment-list li {
     display: flex;
     align-items: center;
     font-weight: 500;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .edublink-comment-bottom-part .comment-reply-link i {
@@ -8855,7 +8857,7 @@ body.learnpress-checkout.learnpress-page .site-content,
     font-weight: 500;
     font-size: 13px;
     color: var(--edublink-color-white);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     display: block;
     text-transform: capitalize;
 }
@@ -8872,10 +8874,10 @@ body.learnpress-checkout.learnpress-page .site-content,
 }
 
 .edublink-single-course .content .course-level {
-    font-size: 13px;
+    font-size: 1.1em;
     font-weight: 500;
     color: var(--edublink-color-primary);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     background-color: rgba(26, 182, 157, 0.15);
     border-radius: 3px;
     padding: 1px 10px;
@@ -8929,10 +8931,10 @@ body.learnpress-checkout.learnpress-page .site-content,
 }
 
 .edublink-single-course .content .course-price {
-    font-size: 14px;
+    font-size: 1.2em;
     font-weight: var(--edublink-p-semi-bold);
     color: var(--edublink-color-secondary);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     margin-bottom: 10px;
     -webkit-transition: var(--edublink-transition);
     transition: var(--edublink-transition);
@@ -9213,7 +9215,7 @@ body.learnpress-checkout.learnpress-page .site-content,
 
 .empty-wishlist-text {
     font-weight: 600;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-body);
 }
 
@@ -9362,7 +9364,7 @@ body.learnpress-checkout.learnpress-page .site-content,
     font-weight: var(--edublink-p-semi-bold);
     font-size: var(--edublink-h6);
     line-height: var(--edublink-h6-lineHeight);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-heading);
 }
 
@@ -9961,7 +9963,7 @@ body.learnpress-checkout.learnpress-page .site-content,
 .edublink-single-course.course-style-7 .content .course-cat {
     font-size: 13px;
     font-weight: 500;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     background-color: rgba(26, 182, 157, 0.15);
     border-radius: 30px;
     padding: 1px 10px;
@@ -10014,7 +10016,7 @@ body.learnpress-checkout.learnpress-page .site-content,
 .edublink-single-course.course-style-8 .content .course-cat {
     font-size: 13px;
     font-weight: 500;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     background-color: rgba(238, 74, 98, 0.15);
     border-radius: 30px;
     padding: 1px 10px;
@@ -10128,7 +10130,7 @@ body.learnpress-checkout.learnpress-page .site-content,
     width: 80px;
     line-height: 84px;
     background-color: var(--edublink-color-primary);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     border-radius: 50%;
     text-align: center;
     position: absolute;
@@ -10204,7 +10206,7 @@ body.learnpress-checkout.learnpress-page .site-content,
     background-color: var(--edublink-color-white);
     border-radius: 50%;
     text-align: center;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     -webkit-transition: var(--edublink-transition);
     transition: var(--edublink-transition);
     position: absolute;
@@ -10427,7 +10429,7 @@ body.learnpress-checkout.learnpress-page .site-content,
 .edublink-single-course.course-style-13 .content .course-cat {
     font-size: 13px;
     font-weight: 500;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     background-color: rgba(26, 182, 157, 0.15);
     border-radius: 30px;
     padding: 1px 13px;
@@ -10524,7 +10526,7 @@ body.learnpress-checkout.learnpress-page .site-content,
     margin-bottom: 15px;
     display: inline-block;
     font-weight: 500;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     text-transform: capitalize;
 }
 
@@ -11987,7 +11989,7 @@ body .tpd-size-medium .tpd-content {
     font-weight: 500;
     font-size: 12px;
     color: var(--edublink-color-white);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     display: block;
 }
 
@@ -12059,7 +12061,7 @@ body .tpd-size-medium .tpd-content {
     display: block;
     color: var(--edublink-color-white);
     text-align: center;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .eb-event-item .content .event-date span.day {
@@ -12542,7 +12544,7 @@ body .tpd-size-medium .tpd-content {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .eb-event-sidebar .event-meta li i {
@@ -13076,7 +13078,7 @@ body .tpd-size-medium .tpd-content {
 .edu-blog.blog-style-5 .content .blog-btn {
     font-size: var(--edublink-font-size-b1);
     font-weight: var(--edublink-p-semi-bold);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     -webkit-transition: var(--edublink-transition);
     transition: var(--edublink-transition);
     color: var(--edublink-color-heading);
@@ -13371,7 +13373,7 @@ body .tpd-size-medium .tpd-content {
     height: 80px;
     background: var(--edublink-color-primary);
     color: var(--edublink-color-white);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     border-radius: 60px 60px 14px 60px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -13562,7 +13564,7 @@ body .tpd-size-medium .tpd-content {
     color: var(--edublink-color-heading);
     font-size: 16px;
     line-height: 22px;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-weight: var(--edublink-p-semi-bold);
 }
 
@@ -13945,7 +13947,7 @@ body .tpd-size-medium .tpd-content {
     padding: 15px 25px;
     position: relative;
     color: var(--edublink-color-body);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     display: inline-block;
 }
 
@@ -14086,7 +14088,7 @@ body .tpd-size-medium .tpd-content {
     font-weight: var(--edublink-p-semi-bold);
     font-size: var(--edublink-h5);
     line-height: var(--edublink-h5-lineHeight);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-heading);
 }
 
@@ -14238,7 +14240,7 @@ body .tpd-size-medium .tpd-content {
 .eb-ms-course-details .masterstudy-curriculum-list__trial,
 .edublink-course-details-page .course-curriculum ul.curriculum-sections .item-meta {
     opacity: 1;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     line-height: 28px;
     border-radius: 3px;
     font-size: 13px;
@@ -14279,7 +14281,7 @@ body .tpd-size-medium .tpd-content {
     font-weight: var(--edublink-p-semi-bold);
     font-size: var(--edublink-h5);
     line-height: var(--edublink-h5-lineHeight);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-heading);
 }
 
@@ -14355,7 +14357,7 @@ body .tpd-size-medium .tpd-content {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.62;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
 }
 
 .edublink-author-bio-designation span {
@@ -14471,7 +14473,7 @@ body .tpd-size-medium .tpd-content {
     font-weight: 700;
     font-size: 28px;
     line-height: 1;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-secondary);
     margin-bottom: 10px;
 }
@@ -14495,7 +14497,7 @@ body .tpd-size-medium .tpd-content {
 
 body .course-rate .course-rate__details-row .course-rate__details-row-value .rating-count,
 body .course-rate .course-rate__details-row .course-rate__details-row-star {
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-size: 14px;
     font-weight: 500;
     color: var(--edublink-color-heading);
@@ -14693,7 +14695,7 @@ body .course-tab-panel-reviews .course-reviews-list li+li {
     font-weight: var(--edublink-p-semi-bold);
     font-size: var(--edublink-h6);
     line-height: var(--edublink-h6-lineHeight);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-heading);
     margin-bottom: 10px;
 }
@@ -14702,7 +14704,7 @@ body .course-tab-panel-reviews .course-reviews-list li+li {
     font-weight: var(--edublink-p-semi-bold);
     font-size: var(--edublink-h6);
     line-height: var(--edublink-h6-lineHeight);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-heading);
     margin-right: 22px;
     margin-bottom: 0;
@@ -14760,7 +14762,7 @@ body .course-tab-panel-reviews .course-reviews-list li+li {
     font-weight: 700;
     font-size: 28px;
     line-height: 1;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-secondary);
     margin-bottom: 10px;
 }
@@ -14782,7 +14784,7 @@ body .course-tab-panel-reviews .course-reviews-list li+li {
     display: inline-block;
     position: relative;
     top: 0px;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-size: 14px;
     font-weight: 500;
     color: var(--edublink-color-heading);
@@ -14802,7 +14804,7 @@ body .course-tab-panel-reviews .course-reviews-list li+li {
     min-width: 40px;
     max-width: 40px;
     margin-top: -3px;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-size: 14px;
     font-weight: 500;
     color: var(--edublink-color-heading);
@@ -15044,7 +15046,7 @@ body .course-tab-panel-reviews .course-reviews-list li+li {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: var(--edublink-font-secondary)
+    font-family: 'Spartan-Regular'
 }
 
 .edublink-course-meta-informations li img,
@@ -15427,7 +15429,7 @@ body .course-tab-panel-reviews .course-reviews-list li+li {
 }
 
 .edu-top-sorting-area .edu-top-sorting-right .layout-switcher label {
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-size: 16px;
     font-weight: 600;
     color: var(--edublink-color-heading);
@@ -15502,7 +15504,7 @@ body .course-tab-panel-reviews .course-reviews-list li+li {
     border: 0 none;
     border-radius: 3px;
     color: var(--edublink-color-heading);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-size: 15px;
     font-weight: 600;
     background: url(../images/icons/arrow-down.png) 88% center no-repeat transparent;
@@ -15526,7 +15528,7 @@ body .course-tab-panel-reviews .course-reviews-list li+li {
     display: none;
     font-size: 16px;
     font-weight: 600;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     color: var(--edublink-color-heading);
     cursor: pointer;
 }
@@ -15843,7 +15845,7 @@ body .dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-c
 
 body .dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-content .dpn-zvc-sidebar-content-list span {
     display: inline;
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-weight: 500;
 }
 
@@ -15885,7 +15887,7 @@ body .dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-c
 body .dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .join-links .btn-start-link,
 body .dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .join-links .btn-join-link {
     background: var(--edublink-color-dark);
-    font-family: var(--edublink-font-secondary);
+    font-family: 'Spartan-Regular';
     font-size: 16px;
     font-weight: 600;
     text-align: center;
