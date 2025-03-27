@@ -964,7 +964,7 @@ h6,
 .h5,
 .h6 {
 	word-break: break-word;
-	font-family: var(--edublink-font-secondary);
+	font-family: 'Spartan';
 	color: var(--edublink-color-heading);
 }
 
