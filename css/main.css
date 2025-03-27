@@ -959,7 +959,7 @@ hr {
 
 @font-face {
     font-family: 'Spartan-SemiBold';
-    src: url(../fonts/Spartan-SemiBold.ttf);
+    src: url(../fonts/LeagueSpartan-Medium.ttf);
 }
 
 @font-face {
@@ -1010,13 +1010,13 @@ h4,
 
 h5,
 .h5 {
-    font-size: var(--edublink-h5);
+    font-size: 1.5em;
     line-height: var(--edublink-h5-lineHeight);
 }
 
 h6,
 .h6 {
-    font-size: var(--edublink-h6);
+    font-size: 1.3em;
     line-height: var(--edublink-h6-lineHeight);
 }
 
